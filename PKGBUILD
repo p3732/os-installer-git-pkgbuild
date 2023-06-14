@@ -1,6 +1,6 @@
 # Maintainer: Peter Eisenmann <p3732 at getgoogleoff dot me>
 pkgname=os-installer
-pkgver=0.1.2
+pkgver=0.3
 pkgrel=1
 pkgdesc="Operating system installer, intended to be used with live systems."
 arch=('any')
