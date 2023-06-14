@@ -6,8 +6,8 @@ pkgdesc="Operating system installer, intended to be used with live systems."
 arch=('any')
 url="https://gitlab.gnome.org/p3732/os-installer"
 license=('GPL3')
-depends=('epiphany' 'glib2' 'gnome-control-center' 'gnome-desktop' 'gnome-disk-utility' 'gtk3' 'libgweather' 'libhandy' 'python-gobject' 'python-yaml' 'udisks2' 'vte3')
-makedepends=('git' 'ninja' 'meson')
+depends=('glib2' 'gnome-desktop' 'gtk4' 'libadwaita' 'libgweather-4' 'python-gobject' 'python-yaml' 'udisks2' 'vte4')
+makedepends=('blueprint-compiler' 'git' 'ninja' 'meson')
 source=("$pkgname::git+$url.git?unsigned#tag=$pkgver")
 sha256sums=('SKIP')
 
